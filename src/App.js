@@ -1,12 +1,12 @@
 import React from "react";
-import Panel from "./Panel";
-import GlobalStyles from '../assets/css/index';
+import GlobalStyles from './assets/css/index';
+import Routes from "./routes";
 
 const App = () => {
     return (
         <>
             <GlobalStyles />
-            <Panel />
+            <Routes />
         </>
     )
 }

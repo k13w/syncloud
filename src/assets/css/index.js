@@ -14,8 +14,12 @@ export default createGlobalStyle`
   }
 
   #root {
-    max-width: 1420px;
+    max-width: 100wh;
     margin: 0 auto;
-    padding: 0 20px 50px;
+  }
+
+  .fonter {
+    @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:500&display=swap');
+    font-family: 'M PLUS Rounded 1c', sans-serif;
   }
 `;

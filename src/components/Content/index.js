@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container } from './styles';
 
-function LeftBox() {
+const Content = () => {
     return (
         <Container />
     )
 }
 
-export default LeftBox;
+export default Content;
