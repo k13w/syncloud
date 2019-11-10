@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 16vw;
-    height: 100vh;
-    background-color: #412E68;
+    height: 92vh;
+    background-color: #0E1428;
 `;
 
 export const Panel = styled.div`
@@ -14,6 +14,6 @@ export const Panel = styled.div`
     h2 {
         color: white;
         margin: 10px;
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
 `;

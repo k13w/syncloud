@@ -5,6 +5,8 @@ import Main from '../screens/Main';
 import Dashboard from '../screens/Dashboard';
 
 import history from '../services/history';
+import SingUp from '../components/common/SingUp';
+import Profile from '../components/Settings';
 
 const Routes = () => {
     return (
@@ -13,8 +15,14 @@ const Routes = () => {
                 <Route path="/" exact>
                     <Main />
                 </Route>
+                <Route path="/singup">
+                    <SingUp />
+                </Route>
                 <Route path="/dashboard" isPrivate>
                     <Dashboard />
+                </Route>
+                <Route path="/profile" isPrivate>
+                    <Profile />
                 </Route>
             </Switch>
         </Router>

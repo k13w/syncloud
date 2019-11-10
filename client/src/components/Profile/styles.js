@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 17vw;
-    height: 100vh;
-    background-color: #FFFFFF;
-    box-shadow: 5px 5px 5px 5px #412E68;
+    height: 92vh;
+    background-color: #0E1428;
+    box-shadow: 5px 5px 5px 5px #01DF74;
 `;
 
 export const Panel = styled.div`
@@ -30,6 +30,7 @@ export const BoxUser = styled.div`
     }
     h2 {
         margin-top: 30px;
+        color: #fff;
     }
 `;
 
